@@ -20,7 +20,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate {
     var timer : Timer?
     var allText="echo bash poop pee"
     
-
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
+    
     func runCommand(cmd : String, args : String){
 
         // Create a Task instance
@@ -52,7 +55,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate {
     struct Colours { // colour scheme for commands
         static var normal = NSColor.textColor
         static var commands = NSColor.systemPink
-        static var executables = NSColor.magenta
+        static var executables = NSColor.systemPink
         static var strings = NSColor.systemOrange
         static var logic = NSColor.magenta
         static var darkvariables = NSColor.cyan

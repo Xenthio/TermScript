@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C226CEAC23FE383E0084EFA9 /* DialogMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */; };
-		C226CEB123FE674F0084EFA9 /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C226CEAF23FE674F0084EFA9 /* dark.png */; };
-		C226CEB223FE674F0084EFA9 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = C226CEB023FE674F0084EFA9 /* light.png */; };
 		C2A770C423FE020F0093E1C7 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A770C323FE020F0093E1C7 /* Document.swift */; };
 		C2C387EA23FCA2D300C0ED94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C387E923FCA2D300C0ED94 /* AppDelegate.swift */; };
 		C2C387EC23FCA2D400C0ED94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C387EB23FCA2D400C0ED94 /* Assets.xcassets */; };
@@ -37,8 +35,6 @@
 
 /* Begin PBXFileReference section */
 		C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogMessage.xib; sourceTree = "<group>"; };
-		C226CEAF23FE674F0084EFA9 /* dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark.png; sourceTree = "<group>"; };
-		C226CEB023FE674F0084EFA9 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
 		C2A770C323FE020F0093E1C7 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		C2C387E623FCA2D200C0ED94 /* TermScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C387E923FCA2D300C0ED94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 				C2C387F023FCA2D400C0ED94 /* Info.plist */,
 				C2C387F123FCA2D400C0ED94 /* TermScript.entitlements */,
 				C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */,
-				C226CEAF23FE674F0084EFA9 /* dark.png */,
-				C226CEB023FE674F0084EFA9 /* light.png */,
 			);
 			path = TermScript;
 			sourceTree = "<group>";
@@ -237,9 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C226CEB223FE674F0084EFA9 /* light.png in Resources */,
 				C2C387EC23FCA2D400C0ED94 /* Assets.xcassets in Resources */,
-				C226CEB123FE674F0084EFA9 /* dark.png in Resources */,
 				C226CEAC23FE383E0084EFA9 /* DialogMessage.xib in Resources */,
 				C2C387EF23FCA2D400C0ED94 /* MainMenu.xib in Resources */,
 			);
@@ -434,6 +426,7 @@
 				CODE_SIGN_ENTITLEMENTS = TermScript/TermScript.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5M2XXLBE78;
 				INFOPLIST_FILE = TermScript/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +445,7 @@
 				CODE_SIGN_ENTITLEMENTS = TermScript/TermScript.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5M2XXLBE78;
 				INFOPLIST_FILE = TermScript/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C226CEAC23FE383E0084EFA9 /* DialogMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */; };
+		C2A770C423FE020F0093E1C7 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A770C323FE020F0093E1C7 /* Document.swift */; };
 		C2C387EA23FCA2D300C0ED94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C387E923FCA2D300C0ED94 /* AppDelegate.swift */; };
 		C2C387EC23FCA2D400C0ED94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C387EB23FCA2D400C0ED94 /* Assets.xcassets */; };
 		C2C387EF23FCA2D400C0ED94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C387ED23FCA2D400C0ED94 /* MainMenu.xib */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogMessage.xib; sourceTree = "<group>"; };
+		C2A770C323FE020F0093E1C7 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		C2C387E623FCA2D200C0ED94 /* TermScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C387E923FCA2D300C0ED94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C387EB23FCA2D400C0ED94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,10 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				C2C387E923FCA2D300C0ED94 /* AppDelegate.swift */,
+				C2A770C323FE020F0093E1C7 /* Document.swift */,
 				C2C387EB23FCA2D400C0ED94 /* Assets.xcassets */,
 				C2C387ED23FCA2D400C0ED94 /* MainMenu.xib */,
 				C2C387F023FCA2D400C0ED94 /* Info.plist */,
 				C2C387F123FCA2D400C0ED94 /* TermScript.entitlements */,
+				C226CEAB23FE383E0084EFA9 /* DialogMessage.xib */,
 			);
 			path = TermScript;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C387EC23FCA2D400C0ED94 /* Assets.xcassets in Resources */,
+				C226CEAC23FE383E0084EFA9 /* DialogMessage.xib in Resources */,
 				C2C387EF23FCA2D400C0ED94 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A770C423FE020F0093E1C7 /* Document.swift in Sources */,
 				C2C387EA23FCA2D300C0ED94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
